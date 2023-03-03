@@ -26,8 +26,11 @@ const Wrapper = styled.div`
   font-size: 0.875rem;
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
-  padding: 8px 32px;
   display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 40px;
+  padding: 0 32px;
 
   UnstyledButton {
 
@@ -43,8 +46,6 @@ const HelpLink = styled.a`
   color: inherit;
   text-decoration: none;
   outline-offset: 2px;
-  margin-left: 24px;
-  margin-right: 27px;
 
   &:not(:focus-visible) {
     outline: none;
